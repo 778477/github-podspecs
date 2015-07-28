@@ -14,7 +14,18 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git@github.com:778477/GMYHotSpotView.git", :tag => "1.0.0.0" }
 
 
-  s.source_files  = "GMYHotSpotView/GMYHotSpotView.{h,m}", "GMYHotSpotView/Category/*.{h,m}", "GMYHotSpotView/Model/*.{h,m}" "GMYHotSpotView/Layout/*.{h,m}"
+  s.source_files  = "GMYHotSpotView/GMYHotSpotView.{h,m}" 
   
+  s.subspec 'Model' do |m|
+    m.source_files = "GMYHotSpotView/Model/*.{h,m}"
+  end
+
+  s.subspec 'Category' do |c|
+    c.source_files = "GMYHotSpotView/Category/*.{h,m}"
+  end
+
+  s.subspec 'Layout' do |layout|
+    layout.source_files = "GMYHotSpotView/Layout/*.{h,m}"
+  end
   s.requires_arc = true
 end
