@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   #                  DESC
 
   s.homepage     = "https://github.com/778477/GestureLockView"
-  #s.screenshots  = "https://raw.githubusercontent.com/778477/GestureLockView/master/gestureLock_snapshot.png", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://raw.githubusercontent.com/778477/GestureLockView/master/snapshot.png", "https://raw.githubusercontent.com/778477/GestureLockView/master/snapshot1.png"
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "778477" => "1032419360@qq.com" }
   s.platform     = :ios, "6.0"
   # s.source       = { :git => "git@github.com:778477/GestureLockView.git", :tag => "0.0.1" }
