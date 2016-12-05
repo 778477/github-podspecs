@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.author       = { "778477" => "1032419360@qq.com" }
   s.platform     = :ios, "6.0"
   s.source       = { :git => "git@github.com:778477/GestureLockView.git", :tag => s.version}
-  s.source_files  = "GMYGestureLockView/*.{h,m}"
+  s.source_files  = "GMYGestureLockView/*.{h,m,c,cpp}"
   s.requires_arc = true
 end
